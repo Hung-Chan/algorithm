@@ -34,17 +34,4 @@ for($i = 1 ; $i <= count($lightBulb); $i++){
     }
 }
 echo '總共有' . $num . '顆燈亮';
-
-// cilck(1);
-
-// function cilck($people){
-//     if($people > 100){
-//         return;
-//     }else{
-//         for($j = $people; $j < count($lightBulb); $j += $people){
-//             $lightBulb[$j] = !$lightBulb[$j];
-//         }
-//         return click($people + 1);
-//     }
-// }
 ?>
